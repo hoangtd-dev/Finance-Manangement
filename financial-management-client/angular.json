@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "financial-management-client:build:production"
+              "buildTarget": "financial-management-client:build:production"
             },
             "development": {
-              "browserTarget": "financial-management-client:build:development"
+              "buildTarget": "financial-management-client:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "financial-management-client:build"
+            "buildTarget": "financial-management-client:build"
           }
         },
         "test": {
